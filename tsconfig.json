@@ -2,17 +2,15 @@
 
 	"compilerOptions" : {
 
-		"outFile" : "uluru.js",
-
 		"target": "ES6",
 
-		"lib": ["DOM", "ESNext"],
+		"lib": ["ES6", "DOM", "ESNext"],
 
-		"sourceMap" : false,
+		"sourceMap": false,
 
-		"removeComments": true,
+		"removeComments": false,
 
-		"declaration": true,
+		"esModuleInterop": true,
 
 		"watch": false
 
@@ -20,12 +18,8 @@
 
 	"include": [
 
-		"./src/extra/import.ts",
+		"./src/"
 
-		"./src/*.ts",
-
-		"./src/extra/export.ts"
-
-	],
+	]
 
 }
